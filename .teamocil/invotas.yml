@@ -1,0 +1,10 @@
+windows:
+  - name: invotas-three-panes
+    root: ~/Documents/repositories/invotas/iso-system/
+    layout: tiled
+    panes:
+      - iso server
+      - iso watch frontend
+      - commands:
+          - clear
+        focus: true
